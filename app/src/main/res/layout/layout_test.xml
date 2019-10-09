@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wristContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.slidingpanelayout.widget.SlidingPaneLayout
+        android:id="@+id/slidingPanel"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="horizontal">
+
+        <include layout="@layout/menu_layout" />
+    </androidx.slidingpanelayout.widget.SlidingPaneLayout>
+
+</FrameLayout>
